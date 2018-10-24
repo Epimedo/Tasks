@@ -5,28 +5,41 @@ public class MoodEmulator {
 
 	public String emulateFace() {
 		int theFaceID = LOWERLIMIT + (int) (Math.random() * UPPERLIMIT);
+		String theFace = "";
 
 		switch (theFaceID) {
 		case 0:
-			return "twisted";
+			theFace = "twisted";
+			break;
 		case 1:
-			return "tired";
+			theFace = "tired";
+			break;
 		case 2:
-			return "peaceful";
+			theFace = "peaceful";
+			break;
 		case 3:
-			return "charming";
+			theFace = "charming";
+			break;
 		case 4:
-			return "calm";
+			theFace = "calm";
+			break;
 		case 5:
-			return "surprised";
+			theFace = "surprised";
+			break;
 		case 6:
-			return "angry";
+			theFace = "angry";
+			break;
 		case 7:
-			return "funny";
+			theFace = "funny";
+			break;
 		case 8:
-			return "sad";
+			theFace = "sad";
+			break;
 		default:
-			return "vague";
+			theFace = "vague";
+			break;
 		}
+
+		return theFace;
 	}
 }
