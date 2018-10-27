@@ -12,8 +12,8 @@ public class Task21 {
 
 		dragon.setAge(Input.consoleInput());
 
-		Output.consoleOutput("The number of heads is " + dragoncon.getHeadCount(dragon));
-		Output.consoleOutput("The number of eyes is " + dragoncon.getEyesCount(dragon));
+		Output.logOutput("The number of heads is " + dragoncon.getHeadCount(dragon));
+		Output.logOutput("The number of eyes is " + dragoncon.getEyesCount(dragon));
 	}
 
 }
