@@ -18,8 +18,7 @@ public class Task32 {
 
 		Output.logOutput("The list of deviders :" + MethodsForProcessing.getListDeviders(number1));
 
-		Output.logOutput(
-				"The count of unique digits is " + MethodsForProcessing.getCountOfDifferentDigits(number1));
+		Output.logOutput("The count of unique digits is " + MethodsForProcessing.getCountOfDifferentDigits(number1));
 
 		Output.logOutput("The greates common division is " + MethodsForProcessing.getGCD(number1, number2));
 

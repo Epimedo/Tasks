@@ -1,4 +1,5 @@
 package by.epam.halavin.task21.controller;
+
 import by.epam.halavin.task21.model.entity.Dragon;
 import by.epam.halavin.task21.model.logic.AboutDragonCondition;
 import by.epam.halavin.task21.view.util.Input;
