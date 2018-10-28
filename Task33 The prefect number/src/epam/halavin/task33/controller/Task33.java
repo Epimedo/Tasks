@@ -10,7 +10,7 @@ public class Task33 {
 		MethodsForNumbers methodsnum = new MethodsForNumbers();
 		int number = Input.consoleInputInt();
 
-		Output.consoleOutput("The number " + number + " is perfect : " + methodsnum.isNumberPerfect(number));
+		Output.logOutput("The number " + number + " is perfect : " + methodsnum.isNumberPerfect(number));
 	}
 
 }

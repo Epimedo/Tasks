@@ -17,8 +17,8 @@ public class Task25 {
 		date.setYear(Input.consoleInput());
 		nextdate = defday.defineNextDay(date);
 
-		Output.consoleOutput("The previous date is " + date.getDay() + "." + date.getMonth() + "." + date.getYear());
-		Output.consoleOutput(
+		Output.logOutput("The previous date is " + date.getDay() + "." + date.getMonth() + "." + date.getYear());
+		Output.logOutput(
 				"The next date is " + nextdate.getDay() + "." + nextdate.getMonth() + "." + nextdate.getYear() + ".");
 	}
 

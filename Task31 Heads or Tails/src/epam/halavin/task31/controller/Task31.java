@@ -11,13 +11,11 @@ public class Task31 {
 
 		game.runGame();
 
-		Output.consoleOutput(
-				"The heads's sum: " + game.getHeadsNumber() + " The tails's sum: " + game.getTailsNumber());
+		Output.logOutput("The heads's sum: " + game.getHeadsNumber() + " The tails's sum: " + game.getTailsNumber());
 
 		game.runGame();
 
-		Output.consoleOutput(
-				"The heads's sum: " + game.getHeadsNumber() + " The tails's sum: " + game.getTailsNumber());
+		Output.logOutput("The heads's sum: " + game.getHeadsNumber() + " The tails's sum: " + game.getTailsNumber());
 
 	}
 
