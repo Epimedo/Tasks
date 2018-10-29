@@ -1,3 +1,4 @@
+package by.epam.halavin.task32.tests;
 import static org.junit.Assert.*;
 
 import org.junit.AfterClass;
