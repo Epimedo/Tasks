@@ -43,7 +43,7 @@ public class MethodsForProcessing {
 
 		for (int i = number - 1; i > 1; i--) {
 			if (number % i == 0) {
-				str += i + "\n ";
+				str += i + "\n";
 			}
 		}
 

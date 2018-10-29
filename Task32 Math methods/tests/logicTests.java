@@ -48,22 +48,30 @@ public class logicTests {
 	public void testOutputListDeviders() {
 		int number = 12;
 
-		Assert.assertEquals("\n6\n4\n3\n2\n".hashCode(), MethodsForProcessing.outputListDeviders(number).hashCode());
+		Assert.assertTrue("\n6\n4\n3\n2\n".equals(MethodsForProcessing.outputListDeviders(number)));
 	}
 
 	@Test
 	public void testOutputCountOfDifferentDigits() {
-		fail("Not yet implemented");
+		int number = 131;
+
+		Assert.assertEquals(2, MethodsForProcessing.outputCountOfDifferentDigits(number));
 	}
 
 	@Test
 	public void testOutputGCD() {
-		fail("Not yet implemented");
+		int number1 = 72;
+		int number2 = 48;
+
+		Assert.assertEquals(24, MethodsForProcessing.outputGCD(number1, number2));
 	}
 
 	@Test
 	public void testOutputLCM() {
-		fail("Not yet implemented");
+		int number1 = 12;
+		int number2 = 9;
+
+		Assert.assertEquals(36, MethodsForProcessing.outputLCM(number1, number2));
 	}
 
 }
