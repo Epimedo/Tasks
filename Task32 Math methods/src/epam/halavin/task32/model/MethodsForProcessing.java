@@ -2,7 +2,7 @@ package epam.halavin.task32.model;
 
 public class MethodsForProcessing {
 
-	public static int getLargestDigit(int number) {
+	public static int outputLargestDigit(int number) {
 		int theLargestDigit = number % 10;
 
 		while (number != 0) {
@@ -38,7 +38,7 @@ public class MethodsForProcessing {
 		return true;
 	}
 
-	public static String getListDeviders(int number) {
+	public static String outputListDeviders(int number) {
 		String str = "\n";
 
 		for (int i = number - 1; i > 1; i--) {
@@ -50,7 +50,7 @@ public class MethodsForProcessing {
 		return str;
 	}
 
-	public static int getCountOfDifferentDigits(int number) {
+	public static int outputCountOfDifferentDigits(int number) {
 		int count = 0;
 		int savenumber;
 
@@ -70,20 +70,18 @@ public class MethodsForProcessing {
 		return count;
 	}
 
-	public static int getGCD(int number1, int number2) {
+	public static int outputGCD(int number1, int number2) {
 		int GCD = 1;
 
-		for (int i = number1; i > 1; i--) {
+		for (int i = 1; i < number1 + 1; i++) {
 			if (number1 % i == 0 && number2 % i == 0) {
-				if (GCD < i) {
-					GCD = i;
-				}
+				GCD = i;
 			}
 		}
 		return GCD;
 	}
 
-	public static int getLCM(int number1, int number2) {
+	public static int outputLCM(int number1, int number2) {
 		int LCM = number1;
 
 		while (LCM % number1 != 0 || LCM % number2 != 0) {
